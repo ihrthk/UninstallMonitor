@@ -17,7 +17,7 @@ public class MyActivity extends Activity {
         setContentView(R.layout.activity_main);
 
 
-        Intent intent = new Intent(this, SDCardListenSer.class);
+        Intent intent = new Intent(this, SDCardListenService.class);
         startService(intent);
         init();
 
